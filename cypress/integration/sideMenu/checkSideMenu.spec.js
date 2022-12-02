@@ -1,5 +1,11 @@
 /// <reference types="Cypress" />
 
+const standardUser = Cypress.env('standardUser')
+const lockedOutUser = Cypress.env('lockedOutUser')
+
+import {LogIn} from '../../support/pom-objects/LogIn.spec'
+
+
 describe('Side Menu', function() {
 
     beforeEach('Go to application.', function () {
@@ -7,9 +13,10 @@ describe('Side Menu', function() {
     });
 
     it.only('1. Verify opening pages from Side Menu', function() {
-        cy.get('[data-test="username"]').type('standard_user')
-        cy.get('[data-test="password"]').type('secret_sauce')
-        cy.get('[data-test="login-button"]').click();
+        cy.get(LogIn.constUserName).type(standardUser.username)
+        cy.get(LogIn.constPassword).type(standardUser.password)
+        cy.get('[data-test="login-button"]').click()
         cy.get('.title').contains('Products')
+        cy.get('#react-burger-menu-btn').click()
     });
 });
