@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "run all tests"
+    "test": "run all tests",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
