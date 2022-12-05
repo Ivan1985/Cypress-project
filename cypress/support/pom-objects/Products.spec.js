@@ -4,4 +4,8 @@ const ProductItems = {
     constAddToCartOnesie: ''
 }
 
-export {ProductItems}
+const ProductTitle = {
+    constProductTitle: '.title'
+}
+
+export {ProductItems, ProductTitle}
