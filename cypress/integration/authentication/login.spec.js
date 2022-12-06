@@ -1,5 +1,6 @@
 /// <reference types="Cypress" />
 
+// Fixtures
 import {loginPageErrors} from '../../fixtures/constLogIn.spec'
 
 describe('Login Page suite', function() {

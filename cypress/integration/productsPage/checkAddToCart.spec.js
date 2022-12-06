@@ -3,9 +3,10 @@
 const standardUser = Cypress.env('standardUser')
 const lockedOutUser = Cypress.env('lockedOutUser')
 
+// POM
 import {LogIn} from '../../support/pom-objects/LogIn.spec'
 import {ProductItems} from '../../support/pom-objects/Products.spec'
-import {SideMenu, ShopingCartBadge} from '../../support/pom-objects/Header.spec'
+import {ShopingCartBadge} from '../../support/pom-objects/Header.spec'
 
 describe('Side Menu', function() {
 
