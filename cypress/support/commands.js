@@ -23,3 +23,10 @@ Cypress.Commands.add("loginUser", (username, password) => {
           expect(items[3]).to.contain.text('Reset App State')
       })
   });
+
+  Cypress.Commands.add("addToCart", (productName, productNumber) => {
+    cy.get(`${productName}`).click().then(() => {
+      cy.get('.shopping_cart_badge')
+        .should('have.text', Number(productNumber))
+    })
+  });

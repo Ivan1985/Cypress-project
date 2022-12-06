@@ -6,7 +6,7 @@ const lockedOutUser = Cypress.env('lockedOutUser')
 // POM
 import {LogIn} from '../../support/pom-objects/LogIn.spec'
 import {ProductTitle} from '../../support/pom-objects/Products.spec'
-import {SideMenu} from '../../support/pom-objects/SideMenu.spec'
+import {SideMenu} from '../../support/pom-objects/Header.spec'
 
 // Fixtures
 import {productTitle} from '../../fixtures/constProducts.spec'

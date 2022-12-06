@@ -1,7 +1,10 @@
 const ProductItems = {
     constAddToCartBackpack: '[data-test="add-to-cart-sauce-labs-backpack"]',
-    constAddToCartTShirt: '',
-    constAddToCartOnesie: ''
+    constAddToCartTShirt: '[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]',
+    constAddToCartOnesie: '[data-test="add-to-cart-sauce-labs-onesie"]',
+    constAddToCartBikeLight: '[data-test="add-to-cart-sauce-labs-bike-light"]',
+    constAddToCartFleeceJacket: '[data-test="add-to-cart-sauce-labs-fleece-jacket"]',
+    constAddToCartTShirtRed: '[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]'
 }
 
 const ProductTitle = {
