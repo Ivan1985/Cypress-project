@@ -6,4 +6,4 @@ const ShopingCartBadge = {
     constShoppingCartBadge: '.shopping_cart_badge'
 }
 
-export {SideMenuButton, ShopingCartBadge}
+export { SideMenuButton, ShopingCartBadge }

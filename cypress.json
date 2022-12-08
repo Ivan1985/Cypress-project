@@ -1,27 +1,25 @@
 {
-    "baseUrl": "https://www.saucedemo.com/",
-    "integrationFolder": "cypress/integration",
-    "viewportHeight": 1000,
-    "viewportWidth": 1280,
-    "retries": {
-      "runMode": 2,
-      "openMode": 1
+  "baseUrl": "https://www.saucedemo.com/",
+  "integrationFolder": "cypress/integration",
+  "viewportHeight": 1000,
+  "viewportWidth": 1280,
+  "retries": {
+    "runMode": 2,
+    "openMode": 1
+  },
+  "env": {
+    "standardUser": {
+      "username": "standard_user",
+      "password": "secret_sauce"
     },
-    "env": {
-        "standardUser": {
-          "username": "standard_user",
-          "password": "secret_sauce"
-        },
-        "lockedOutUser": {
-          "username": "locked_out_user",
-          "password": "secret_sauce"
-        }
-      },
-
-    "defaultCommandTimeout": 8000,
-    "requestTimeout": 6000,
-    "responseTimeout": 30000,
-    "experimentalStudio": true,
-    "chromeWebSecurity": false    
-  }
-  
+    "lockedOutUser": {
+      "username": "locked_out_user",
+      "password": "secret_sauce"
+    }
+  },
+  "defaultCommandTimeout": 8000,
+  "requestTimeout": 6000,
+  "responseTimeout": 30000,
+  "experimentalStudio": true,
+  "chromeWebSecurity": false
+}

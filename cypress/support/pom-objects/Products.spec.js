@@ -11,4 +11,4 @@ const ProductTitle = {
     constProductTitle: '.title'
 }
 
-export {ProductItems, ProductTitle}
+export { ProductItems, ProductTitle }

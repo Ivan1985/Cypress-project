@@ -4,4 +4,4 @@ const LogIn = {
     constLogInButton: '[data-test="login-button"]'
 }
 
-export {LogIn}
+export { LogIn }
