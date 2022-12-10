@@ -22,11 +22,11 @@
   "responseTimeout": 30000,
   "experimentalStudio": true,
   "chromeWebSecurity": false,
+  "video": false,
   "reporter": "cypress-mochawesome-reporter",
   "reporterOptions": {
-    "delete": true,
     "charts": true,
-    "overwrite": false,
+    "overwrite": true,
     "html": true,
     "json": false,
     "reportDir": "cypress/report/mochawesome-report"
