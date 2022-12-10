@@ -29,6 +29,6 @@
     "overwrite": true,
     "html": true,
     "json": false,
-    "reportDir": "cypress/report/mochawesome-report"
+    "reportDir": "cypress/report"
   }
 }
