@@ -19,7 +19,6 @@
   "homepage": "https://github.com/Ivan1985/Cypress-project#readme",
   "devDependencies": {
     "cypress": "^9.7.0",
-    "cypress-mochawesome-reporter": "^3.2.3",
-    "cypress-multi-reporters": "^1.6.2"
+    "cypress-mochawesome-reporter": "^3.2.3"
   }
 }
