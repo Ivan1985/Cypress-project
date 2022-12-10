@@ -8,7 +8,7 @@ import { LogIn } from '../../support/pom-objects/LogIn.spec'
 import { ProductItems } from '../../support/pom-objects/Products.spec'
 import { ShopingCartBadge } from '../../support/pom-objects/Header.spec'
 
-describe('Side Menu', function () {
+describe('Products Page', function () {
 
     beforeEach('Go to application.', function () {
         cy.visit('/')
