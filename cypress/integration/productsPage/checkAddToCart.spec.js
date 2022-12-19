@@ -15,14 +15,14 @@ describe('Products Page', function () {
         cy.loginUser(standardUser.username, standardUser.password)
     });
 
-    it.only('1. Verify Adding Item to Cart', function () {
+    it('1. Verify Adding Item to Cart', function () {
         cy.get(ProductItems.constAddToCartBackpack).click().then(() => {
             cy.get(ShopingCartBadge.constShoppingCartBadge)
                 .should('be.visible')
         })
     });
 
-    it.only('2. Adding All Items to Cart', function () {
+    it('2. Adding All Items to Cart', function () {
         cy.addToCart(ProductItems.constAddToCartBackpack)
         cy.addToCart(ProductItems.constAddToCartTShirt)
         cy.addToCart(ProductItems.constAddToCartOnesie)

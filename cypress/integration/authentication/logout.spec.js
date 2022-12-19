@@ -12,7 +12,7 @@ describe('Logout Page suite', function () {
         cy.visit('/')
     });
 
-    it.only('1. Logout succesufully', function () {
+    it('1. Logout succesufully', function () {
         cy.loginUser(standardUser.username, standardUser.password)
         cy.logoutUser()
         cy.get(LogIn.constLogInButton).should('be.visible')
